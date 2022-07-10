@@ -30,7 +30,7 @@ export const Modal: FC<IModal> = (props) => {
             alignItems: 'center',
           }}
         >
-          <div id='dialogContent' onClick={insideClick}>
+          <div onClick={insideClick}>
             {props.children}
           </div>
         </div>
